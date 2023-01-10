@@ -9,12 +9,16 @@
 
 .books {
   display: flex;
-  background-color: aquamarine;
+  gap: 10px;
 }
 
 .book {
   flex: 1;
-  /* background-color: aqua; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 
 img {
@@ -22,4 +26,24 @@ img {
   height: 300px;
   object-fit: cover;
   background-color: azure;
+}
+
+.delete {
+  border: border;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  color: red;
+  font-size: larger;
+}
+
+.update {
+  border: border;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  color: blue;
+  font-size: larger;
 }
