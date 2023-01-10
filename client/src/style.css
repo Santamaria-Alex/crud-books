@@ -47,3 +47,36 @@ img {
   color: blue;
   font-size: larger;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: indianred;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+}
+
+.homeButton {
+  border: none;
+  padding: 10px;
+  color: black;
+  background-color: gainsboro;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
